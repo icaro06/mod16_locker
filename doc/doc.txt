@@ -1,8 +1,44 @@
+southco
 R4-EM-9P2-150
 200324-2326
-
 
 P= 
 Re-verrouillage temporisé,
 déclencheur arrière - tirer
 pour ouvrir
+------
+1 2 3
+4 5 6 
+-----
+  -
+
+1	GND
+2	+12 to +24V
+3 	+Ctrl SIGNAL
+4	LATCH STATUS (OPEN DRAIN)
+5	NONE
+6 	DOOR STATUS (OPEN DRAIN)
+
+https://media.southco.com/media/static/Literature/r4-em-all2.fr.pdf?_gl=1*1xdh5xy*_up*MQ..*_ga*OTg3MTk5NzMzLjE3NjQxNTExODk.*_ga_BMN2PED7E6*czE3NjQxNTExODgkbzEkZzEkdDE3NjQxNTE2NjgkajYwJGwwJGgw
+
+eboxlock
+www.eboxlock.com
+_ ____ __
+|4 3 2 1|
+_________
+
+1 	+12V
+2	GND
+3	COM
+4	NO/NC
+
+------------------------------------------
+_ ____ __
+|4 3 2 1|
+_________			     southco R4-EM-9P2-150
+
+1 	+12V ------------	2	+12 to +24V
+2	GND  ------------	1	GND
+3	COM	 ------------	???? 3 	+Ctrl SIGNAL
+4	NO/NC -----------	4	LATCH STATUS (OPEN DRAIN)
+------------------------------------------
